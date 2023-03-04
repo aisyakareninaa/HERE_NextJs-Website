@@ -71,7 +71,7 @@ function Detail() {
             </p>
             <div className="mt-6 sm:mt-8 flex items-center space-x-5">
               <p className="font-fraunces text-3xl text-darkCyan">
-                Rp. {barang.price}
+                $ {barang.price}
               </p>
             </div>
 
@@ -99,7 +99,7 @@ function Detail() {
                 // onClick={handleOnAddToCart}
                 // disabled={adding} 
                 className="mt-4 sm:mt-6 flex space-x-2 justify-center items-center py-4 w-full text-xs text-white font-montserrat font-bold bg-black hover:bg-veryDarkBlue transition ease-in-out delay-75 rounded-lg">
-              <span>Add to Cart ({total})</span>
+              <span>Add to Cart (${total})</span>
             </button>
             <button type="button"
                 // onClick={handleOnAddToCart}
