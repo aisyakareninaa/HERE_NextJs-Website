@@ -2,9 +2,9 @@ const data = [
     {
       "id": 1,
       "name": "Fabric Bed",
-      "price": 23000000,
+      "price": 4399,
       "image": "assets/bed-cozy.jpg",
-      "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+      "description": "A fabric bed is a type of bed frame that is typically made from a combination of wood, metal, and upholstery fabric. With proper care, a fabric bed can last for many years and provide a comfortable and stylish place to sleep.",
       "isDeleted": false,
       "category": "Best-Seller",
       "expiryDate": "2022-07-24"
@@ -12,9 +12,9 @@ const data = [
     {
         "id": 2,
         "name": "Blanket Flower Knit",
-        "price": 110000,
+        "price": 76,
         "image": "assets/blanket.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "Blanket flower knit is a type of textile product that is commonly used as a cozy and warm layer for sleeping or lounging. This knit is made from high-quality materials, such as soft and durable yarns, that are carefully woven to create a comfortable and breathable texture.",
         "isDeleted": false,
         "category": "Pre-Order",
         "expiryDate": "2022-07-24"
@@ -22,9 +22,9 @@ const data = [
       {
         "id": 3,
         "name": "Basic Mattres",
-        "price": 3000000,
+        "price": 1000,
         "image": "assets/bed-basic.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "The basic mattress is a high-quality and comfortable bedding product designed to provide a good night's sleep. Made with top-quality materials, this mattress offers excellent support and comfort to ensure a restful and rejuvenating sleep experience.",
         "isDeleted": false,
         "category": "Ready",
         "expiryDate": "2022-07-24"
@@ -32,9 +32,9 @@ const data = [
       {
         "id": 4,
         "name": "Pillow Smiley Cloud",
-        "price": 210000,
+        "price": 210,
         "image": "assets/pillow-cloud.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "The pillow smiley cloud is a popular choice for children and adults who are looking for a playful and cheerful addition to their bedding collection. It can be used as a decorative accent or a functional sleeping accessory, providing both comfort and style.",
         "isDeleted": false,
         "category": "Ready",
         "expiryDate": "2022-07-24"
@@ -42,9 +42,9 @@ const data = [
       {
         "id": 5,
         "name": "Pattrened Pinky Rug",
-        "price": 110000,
+        "price": 110,
         "image": "assets/pattrened-rug.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "The patterned pinky rug is a beautiful and stylish flooring accessory that can add a pop of color and texture to any room. This rug is designed with high-quality materials, such as soft and durable fibers, ensuring a comfortable and long-lasting surface for your feet.",
         "isDeleted": false,
         "category": "Pre-Order",
         "expiryDate": "2022-07-24"
@@ -52,9 +52,9 @@ const data = [
       {
         "id": 6,
         "name": "Polytress Fuffly Bed",
-        "price": 11000000,
+        "price": 1199,
         "image": "assets/bed-polytress.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "The Polytress Fuffly Bed is a luxurious and comfortable bedding product designed to provide a cozy and restful sleep experience. This bed is made with high-quality materials, such as soft and plush fabrics, ensuring a comfortable and supportive surface to rest your body.",
         "isDeleted": false,
         "category": "Ready",
         "expiryDate": "2022-07-24"
@@ -62,9 +62,9 @@ const data = [
       {
         "id": 7,
         "name": "Snorlax Bean Bag",
-        "price": 5500000,
+        "price": 550,
         "image": "assets/beanbag-lucu.jpg",
-        "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "description": "The Snorlax Bean Bag is a popular choice for people who are looking for a fun and functional seating option that offers both comfort and style. It is easy to move around and position, making it a great choice for homes with limited space or for people who like to change up their furniture arrangement.",
         "isDeleted": false,
         "category": "Best-Seller",
         "expiryDate": "2022-07-24"
@@ -72,7 +72,7 @@ const data = [
       {
         "id": 8,
         "name": "Basic White Bean Bag",
-        "price": 200000,
+        "price": 200,
         "image": "assets/beanbag-basic.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -82,7 +82,7 @@ const data = [
       {
         "id": 9,
         "name": "Warmer Cutie Duck Blanket",
-        "price": 50000,
+        "price": 500,
         "image": "assets/blanket-warmer.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -92,7 +92,7 @@ const data = [
       {
         "id": 10,
         "name": "Faux Fur Blanket",
-        "price": 700000,
+        "price": 700,
         "image": "assets/blanket-fauxfur.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -102,7 +102,7 @@ const data = [
       {
         "id": 11,
         "name": "Teddy Blindfold",
-        "price": 70000,
+        "price": 70,
         "image": "assets/blindfold.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -112,7 +112,7 @@ const data = [
       {
         "id": 12,
         "name": "diffuser",
-        "price": 123000,
+        "price": 99,
         "image": "assets/diffuser.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -122,7 +122,7 @@ const data = [
       {
         "id": 13,
         "name": "Chubby Softie Seat",
-        "price": 300000,
+        "price": 300,
         "image": "assets/seat-chubby.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -132,7 +132,7 @@ const data = [
       {
         "id": 14,
         "name": "Neck Pillow Animations",
-        "price": 89000,
+        "price": 89,
         "image": "assets/pillow-neckcute.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -142,7 +142,7 @@ const data = [
       {
         "id": 15,
         "name": "Cat Paw Rug",
-        "price": 99000,
+        "price": 99,
         "image": "assets/catpaw-rug.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -152,7 +152,7 @@ const data = [
       {
         "id": 16,
         "name": "Arm Warmer Crocket Pattren",
-        "price": 79000,
+        "price": 79,
         "image": "assets/arm-warmer.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -162,7 +162,7 @@ const data = [
       {
         "id": 17,
         "name": "Hand Warmer Transparant",
-        "price": 50000,
+        "price": 50,
         "image": "assets/hand-warmer.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -172,7 +172,7 @@ const data = [
       {
         "id": 18,
         "name": "Bunny Cotton Slippers",
-        "price": 99000,
+        "price": 99,
         "image": "assets/cotton-slippers.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -182,7 +182,7 @@ const data = [
       {
         "id": 19,
         "name": "Totoro Pillow Set",
-        "price": 180000,
+        "price": 180,
         "image": "assets/totoro-pillow.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,
@@ -192,7 +192,7 @@ const data = [
       {
         "id": 20,
         "name": "Electric USB Warmer Foot",
-        "price": 189000,
+        "price": 189,
         "image": "assets/warmer-foot.jpg",
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
         "isDeleted": false,

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React, {useEffect, useState, useRef} from "react";
 import data from "../../data";
@@ -27,7 +28,7 @@ function Detail() {
 
   const toastId = useRef();
   const firstRun = useRef(true);
-
+  const total = qty * barang.price
   const handleOnAddToCart = () => {
     setAdding(true);
     toastId.current = toast.loading(
@@ -55,6 +56,7 @@ function Detail() {
                 alt={barang.name}
               />
             </picture>
+            
           </div>
 
           <div className="flex flex-col bg-white p-2 sm:p-7 rounded-bl-xl rounded-br-xl sm:rounded-l-none sm:rounded-tr-xl sm:rounded-br-xl">
@@ -97,7 +99,13 @@ function Detail() {
                 // onClick={handleOnAddToCart}
                 // disabled={adding} 
                 className="mt-4 sm:mt-6 flex space-x-2 justify-center items-center py-4 w-full text-xs text-white font-montserrat font-bold bg-black hover:bg-veryDarkBlue transition ease-in-out delay-75 rounded-lg">
-              <span>Add to Cart ({qty})</span>
+              <span>Add to Cart ({total})</span>
+            </button>
+            <button type="button"
+                // onClick={handleOnAddToCart}
+                // disabled={adding} 
+                className="mt-1 sm:mt-1 flex space-x-2 justify-center items-center py-4 w-full text-xs text-white font-montserrat font-bold bg-black hover:bg-veryDarkBlue transition ease-in-out delay-75 rounded-lg">
+              <Link href='/products/#products'>BACK</Link>
             </button>
           </div>
         </div>
