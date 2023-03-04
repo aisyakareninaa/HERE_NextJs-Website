@@ -1,27 +1,49 @@
 import Link from "next/link";
 import React from "react";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="w-full">
-      <div className="bg-white grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-1 px-20 py-10 items-center">
-        <div className="items-center lg:items-start gap-5 pr-2">
-          <div className="font-semibold md:text-left text-center text-2xl">HERE </div>
+    <footer className="grid grid-cols-2 bg-black p-10 text-gray-300 xs:grid-cols-1">
+    <div className="flex flex-col">
+      <div className="flex flex-row items-center py-5">
+        <div className=" mx-2 text-lg font-semibold">
+        Here just for you
         </div>
-        <div className="flex flex-row md:ml-200 justify-center gap-8">
-          <p className="text-center">
-            ; Get your comfort now!
-          </p>
+      </div>
+      <div className="py-2 font-semibold">2023 @ here.com</div>
+
+      <div className="py-2 font-semibold cursor-pointer hover:text-gray-400">
+      <Link href='/#aboutus'>About</Link>
+      </div>
+      <div className="py-2 font-semibold cursor-pointer hover:text-gray-400">
+      <Link href='/products/#products'>Our Products</Link>
+      </div>
+    </div>
+    <div className="flex py-5 flex-col xs:py-0">
+      <div className="p-2 font-semibold xs:px-0">
+        Get your comfort now!
+      </div>
+      <div className="p-2 font-semibold cursor-pointer hover:text-gray-400">
+      <Link href='/contact'>Contact Us</Link>
+      </div>
+      <div className="p-2 font-semibold cursor-pointer hover:text-gray-400">
+      <Link href="https://here-for-you-kappa.vercel.app/">support@hereforyou.com</Link>
+      </div>
+      <div className="flex flex-row">
+        <div className="p-2 xs:px-0 cursor-pointer hover:text-gray-400">
+        <a href="https://www.instagram.com/aisyakareninaa/"><BsInstagram /></a>
         </div>
-        <div className="flex justify-end gap-5 mx-auto md:mx-0 md:right-24 md:absolute">
-          <a href="https://github.com/aisyakareninaa"><BsGithub className="text-3xl text-gray-500" /></a>
-          <a href="https://www.linkedin.com/in/aisya-karenina-ramadhani-b7349217a/"><BsLinkedin className="text-3xl text-gray-500" /></a>
-          <a href="https://instagram.com/aisyakareninaa?igshid=ZDdkNTZiNTM="><BsInstagram className="text-3xl text-gray-500" /></a>
+        <div className="p-2 xs:pr-0 cursor-pointer hover:text-gray-400">
+        <a href="https://twitter.com/aisyakareninaa"><BsTwitter /></a>
+        </div>
+        <div className="p-2 xs:pr-0 cursor-pointer hover:text-gray-400">
+        <a href="https://www.linkedin.com/in/aisya-karenina-ramadhani-b7349217a/"><BsLinkedin /></a>
         </div>
       </div>
     </div>
-  );
+  </footer>
+);
 };
 
 export default Footer;

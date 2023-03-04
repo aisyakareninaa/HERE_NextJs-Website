@@ -14,7 +14,7 @@ const Aboutus = () => {
 
       <p className="text-gray-700 md:text-lg">
        HERE berdiri sejak 2023, di HERE kami menyediakan berbagai barang yang dapat membantu tidur anda menjadi tambah nyenyak dan damai.
-       "Bersama Here Perbaiki Kualitas Turumu"
+       "Bersama Here Perbaiki Kualitas Turumu" -Aisya Karenina.
       </p>
     </div>
     <div className="flex flex-col m-10">
@@ -22,7 +22,7 @@ const Aboutus = () => {
     <span className="text-center text-2xl my-4 text-gray-400">
       Our amazing services
     </span>
-    <div className="grid mt-5 gap-8 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xs:grid-cols-1">
+    <div className="grid mt-5 gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xs:grid-cols-1">
       <div className="flex flex-1 items-center flex-col w-full p-10 text-center rounded-lg shadow-2xl bg-yellow-400">
         <span className="text-3xl font-semibold">Quick</span>
         <div className="py-5 flex items-center justify-center">
@@ -120,7 +120,7 @@ const Aboutus = () => {
       <span className="text-center text-2xl my-4 text-gray-400">
         Some of the many users who admired our service.
       </span>
-      <div className="grid grid-cols-2 gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xs:grid-cols-1">
+      <div className="grid grid-cols- gap-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 xs:grid-cols-1">
         <div className="flex flex-row shadow-2xl p-4 rounded-lg">
           <div className="flex flex-col justify-center">
             <Image

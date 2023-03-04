@@ -79,7 +79,7 @@ function Products() {
                 )
                 .map((item) => (
                   <Link href={`/${item.id}`} key={item.id}>
-                    <div className=" template  bg-white border justify-center items-center m-5 p-5 rounded-[10px] border-solid border-[#a7a7a7] hover:transition-[0.4s] hover:shadow-[0_10px_40px_0_rgba(0,0,0,0.4)] hover:z-[3] hover:scale-110">
+                    <div className=" grid mt-5 gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 xs:grid-cols-1 template  bg-white border justify-center items-center m-5 p-5 rounded-[10px] border-solid border-[#a7a7a7] hover:transition-[0.4s] hover:shadow-[0_10px_40px_0_rgba(0,0,0,0.4)] hover:z-[3] hover:scale-110">
                       <img
                         src={item.image}
                         alt=""
