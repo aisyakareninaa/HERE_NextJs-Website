@@ -1,4 +1,4 @@
-import data from "../data";
+import data from "../data.json";
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
@@ -9,8 +9,8 @@ function Products() {
   const [searchTerm, setSearchTerm] = useState("");
   console.log(data);
 
-  const handlefilter = (e) => {
-    const filterData = data.filter((e) => {
+  const handlefilter = async () => {
+    const filterData = await data.filter((e) => {
       return e.category.toLowerCase().includes(keyword.toLowerCase());
     });
     setHasilfilter(filterData);
@@ -18,6 +18,11 @@ function Products() {
   console.log(keyword);
 
   useEffect(() => {
+    //  const fetchData = async () => {
+    //   const res = await fetch('/api/data')
+    //   const jsonData = await res.json()
+    //   setData(jsonData)
+    // }
     handlefilter();
   }, [data, keyword]);
 
