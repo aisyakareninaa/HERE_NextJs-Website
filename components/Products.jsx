@@ -1,5 +1,3 @@
-import data from "../data.json";
-
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
@@ -7,24 +5,30 @@ function Products() {
   const [keyword, setKeyword] = useState("");
   const [hasilFilter, setHasilfilter] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  console.log(data);
+  const [data, setData] = useState([])
 
-  const handlefilter = async () => {
-    const filterData = await data.filter((e) => {
+  const handlefilter = (e) => {
+    const filterData = data.filter((e) => {
       return e.category.toLowerCase().includes(keyword.toLowerCase());
     });
     setHasilfilter(filterData);
   };
-  console.log(keyword);
-
   useEffect(() => {
-    //  const fetchData = async () => {
-    //   const res = await fetch('/api/data')
-    //   const jsonData = await res.json()
-    //   setData(jsonData)
-    // }
     handlefilter();
   }, [data, keyword]);
+
+  useEffect(() => {
+    try{
+      const fetchData = async () => {
+        const response = await fetch("https://api.jsonbin.io/v3/b/640fbd0cace6f33a22ee575e");
+        const item = await response.json();
+        setData(item.record);
+      };
+      fetchData();
+    } catch (err){
+    console.log(err);
+  }
+  }, []);
 
   function getFiltered(filtered) {
     if (filtered === 0) {
